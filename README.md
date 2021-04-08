@@ -11,3 +11,5 @@ So, try updating the live code below to recreate the finished example, following
 5. Finally, write a calculation that checks whether finalResult is an even number. Store the result in a variable called evenOddResult.
 
 Ref: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Test_your_skills:_Math
+
+Live web: https://gitthuma.github.io/math-1/
