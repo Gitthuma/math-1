@@ -5,7 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Math: Task 1</title>
-    <link rel="stylesheet" href="css/style.css">
+    <style>
+        p {
+            color: purple;
+            margin: 0.5em 0;
+        }
+    
+        * {
+            box-sizing: border-box;
+        }
+    </style>
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
     
@@ -16,4 +26,29 @@
         </section>
 
 </body>
+
+<script>
+    let finalResult;
+
+    let evenOddResult;
+
+    // Add your code here
+
+
+
+    // Don't edit the code below here!
+
+    const section = document.querySelector('section');
+
+    let para1 = document.createElement('p');
+    let finalResultCheck = finalResult === 48 ? `Yes, well done!` : `No, it is ${finalResult}`;
+    para1.textContent = `Is the finalResult 48? ${finalResultCheck}`;
+    let para2 = document.createElement('p');
+    let evenOddResultCheck = evenOddResult === 0 ? 'The final result is even!' : 'The final result is odd. Hrm.'
+    para2.textContent = evenOddResultCheck;
+
+    section.appendChild(para1);
+    section.appendChild(para2);
+</script>
+
 </html>
