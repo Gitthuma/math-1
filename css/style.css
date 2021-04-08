@@ -65,12 +65,3 @@ p {
   display: block;
   margin: 5px;
 }
-
-p {
-  color: purple;
-  margin: 0.5em 0;
-}
-
-* {
-  box-sizing: border-box;
-}
